@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat with Daisy - Green Talk :)</title>
+</head>
+<body id="chat-screen">
+
+    <div class="chat-status-bar">
+        <div class="status-bar__column">
+            <span>LG U+</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>12:07</span>
+        </div>
+        <div class="status-bar__column">
+            <span>68%</span>
+            <i class="fas fa-battery-three-quarters"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="alt-header">
+        <div class="alt-header__column fa"><a href="chats.html"><i class="fas fa-angle-left fa-2x"></i></a>
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">Daisy</h1>
+        </div>
+        <div class="alt-header__column">
+           <span> <i class="fas fa-search fa-lg"></i></span>
+           <span><i class="fas fa-bars fa-lg"></i></span>
+        </div>
+    </header>
+
+
+        <main class="main-screen more-screen main-chat">
+
+            <div class="chat__timestamp">
+                Thursday, January 27, 2022
+            </div>
+
+            <div class="message-row">
+                <img src="https://media.istockphoto.com/vectors/hamomile-flower-isolated-on-blue-background-vector-id600095350?k=20&m=600095350&s=612x612&w=0&h=xnvD423BhEeAIhv6HLYB60aHBszgSI0xOBIvyJztt80=">
+                <div class="message-row__content">
+                    <span class="message__author">Daisy</span>
+                    <div class="message__info">
+                        <span class="message__bubble">hey</span>
+                        <span class="message__time">08:13</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="message-row message-row--own">
+                <div class="message-row__content">
+                    <div class="message__info">
+                        <span class="message__bubble">hey</span>
+                        <span class="message__time">08:15</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="message-row">
+                <img src="https://media.istockphoto.com/vectors/hamomile-flower-isolated-on-blue-background-vector-id600095350?k=20&m=600095350&s=612x612&w=0&h=xnvD423BhEeAIhv6HLYB60aHBszgSI0xOBIvyJztt80=">
+                <div class="message-row__content">
+                    <span class="message__author">Daisy</span>
+                    <div class="message__info">
+                        <span class="message__bubble">Please reply when you read it :)</span>
+                        <span class="message__time">09:25</span>
+                    </div>
+                </div>
+            </div>
+           
+        </main>
+
+        <form class="reply">
+            <div class="reply__column">
+                <i class="far fa-plus-square fa-lg"></i>
+            </div>    
+            <div class="reply__column">
+                <input type="text" placeholder="Write a message...">
+                <i class="far fa-laugh fa-lg"></i>
+                <button>
+                    <i class="fas fa-arrow-up"></i>
+                </button>
+
+
+            </div>        
+
+        </form>
+
+        <div id="no-mobile">
+            <span>Your screen is too big :(</span>
+        </div>
+
+    
+    <script src="https://kit.fontawesome.com/f1478e9df0.js" crossorigin="anonymous"></script>
+</body>
+</html>
